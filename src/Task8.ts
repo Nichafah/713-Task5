@@ -19,12 +19,16 @@
 
 
 
-let x =90
+let x =51
+
 if (x > 80) {
     console.log('เกรด A')
-} else if (x > 60){
+} else if (x > 60 && x<80){
     console.log('เกรด B')
+
+} else if (x > 50 && x<60){
+    console.log('เกรด c')
 }
 else {
-    console.log('เกรด C')
+    console.log('เกรด F')
 }
