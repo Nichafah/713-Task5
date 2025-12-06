@@ -19,17 +19,15 @@ console.log(maxScore, 'type of maxScore:', typeof maxScore);
 //     for (let i = 1; i < numbers.length; i++) {
 //
 //
-//         // @ts-ignore
+
 //         if (numbers[i] > max) {
 //             max = numbers[i];
 //         }
 //     }
 //
-//
-//     // @ts-ignore
+
 //     return max.toString();
 // }
-//
 //
 // const scores = [10, 20, 35, 5, 28];
 // const maxScore = findMax(scores);
